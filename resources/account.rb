@@ -26,6 +26,7 @@ attribute :comment,       :kind_of => String
 attribute :uid,           :kind_of => [String,Integer]
 attribute :gid,           :kind_of => [String,Integer]
 attribute :home,          :kind_of => String
+attribute :groups,        :kind_of => [Array,String]
 attribute :shell,         :kind_of => String
 attribute :password,      :kind_of => String
 attribute :system_user,   :default => false
